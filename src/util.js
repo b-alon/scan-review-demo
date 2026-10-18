@@ -1,7 +1,7 @@
 const _ = require('lodash');
 
 function evaluate(expression) {
-  return eval(expression);
+  return JSON.parse(expression);
 }
 
 module.exports = { evaluate, merge: _.merge };

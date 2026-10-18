@@ -1,0 +1,11 @@
+{
+  "name": "scan-review-demo",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Deliberately vulnerable sample for the AI Scan Review demo. v1 has issues, v2 fixes them.",
+  "main": "src/util.js",
+  "dependencies": {
+    "lodash": "4.17.15",
+    "minimist": "1.2.0"
+  }
+}
